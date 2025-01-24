@@ -1,7 +1,7 @@
 import streamlit as st
 
 # --- SHARED ON ALL PAGES ---
-st.sidebar.caption("Made with ❤️ by Kamal, Reka, Kopika, Deepesh & Ashir")
+st.sidebar.caption("Made by Team 8 - RightBrothers, Dept of AIML, PESITM, Shivamogga")
 
 # --- PAGE SETUP ---
 about_page = st.Page(
