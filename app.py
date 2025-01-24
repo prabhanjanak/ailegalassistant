@@ -1,13 +1,13 @@
 import streamlit as st
 
 # --- SHARED ON ALL PAGES ---
-st.sidebar.caption("Made with ❤️ by Kamal, Reka, Kopika, Deepesh & Ashir")
+st.sidebar.caption("Made with ❤️ by Team RightBrothers")
 
 # --- PAGE SETUP ---
 about_page = st.Page(
-    "views/judgmentPred.py",
-    title="Judgment Predictor",
-    icon=":material/online_prediction:",
+    "views/chatbotLegalv2.py",
+    title="Chat Bot",
+    icon=":material/smart_toy:",
     default=True,
 )
 project_1_page = st.Page(
