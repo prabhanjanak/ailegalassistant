@@ -4,12 +4,6 @@ import streamlit as st
 st.sidebar.caption("Made by Team 8 - RightBrothers, Dept of AIML, PESITM, Shivamogga")
 
 # --- PAGE SETUP ---
-about_page = st.Page(
-    "views/chatbotLegalv2.py",
-    title="Chat Bot",
-    icon=":material/smart_toy:",
-    default=True,
-)
 project_1_page = st.Page(
     "views/judgmentPred.py",
     title="Judgment Predictor",
