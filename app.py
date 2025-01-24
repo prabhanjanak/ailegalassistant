@@ -1,10 +1,15 @@
 import streamlit as st
 
 # --- SHARED ON ALL PAGES ---
-st.sidebar.caption("Made by Team 8 - RightBrothers, Dept of AIML, PESITM, Shivamogga")
+st.sidebar.caption("Made with ❤️ by Kamal, Reka, Kopika, Deepesh & Ashir")
 
 # --- PAGE SETUP ---
-# --- PAGE SETUP ---
+about_page = st.Page(
+    "views/judgmentPred.py",
+    title="Judgment Predictor",
+    icon=":material/online_prediction:",
+    default=True,
+)
 project_1_page = st.Page(
     "views/judgmentPred.py",
     title="Judgment Predictor",
@@ -15,6 +20,8 @@ project_2_page = st.Page(
     title="Legal Doc Generator",
     icon=":material/description:",
 )
+
+
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 pg = st.navigation(
     {
