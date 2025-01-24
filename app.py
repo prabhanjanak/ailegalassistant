@@ -4,18 +4,17 @@ import streamlit as st
 st.sidebar.caption("Made by Team 8 - RightBrothers, Dept of AIML, PESITM, Shivamogga")
 
 # --- PAGE SETUP ---
-about_page = st.Page(
+# --- PAGE SETUP ---
+project_1_page = st.Page(
     "views/judgmentPred.py",
     title="Judgment Predictor",
     icon=":material/online_prediction:",
-    default=True,
-)project_2_page = st.Page(
+)
+project_2_page = st.Page(
     "views/docGen.py",
     title="Legal Doc Generator",
     icon=":material/description:",
 )
-
-
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 pg = st.navigation(
     {
