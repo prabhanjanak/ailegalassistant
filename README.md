@@ -17,10 +17,6 @@ an AI assistant to help with legal queries, with an RAG model trained on the Ind
 - 📅 **Redis** for quick, indexed access to knowledge base entries.
 - 🐍 **Python** for core application logic.
 
-## Getting Started
-
-AI Legal Assistant has been deployed here: https://ailegalassistant.streamlit.app/
-
 **HOW TO USE:**
 
 1. Upload Case Files: Upload your case files to get a predicted judgment backed by solid legal rationale.
